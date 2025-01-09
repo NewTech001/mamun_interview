@@ -1,0 +1,207 @@
+/* basic setup */
+.clearfix::after{
+ content: '';
+ clear: both;
+ display: block;
+}
+
+/* header section */
+
+.header{
+    background-color: #1C1E53;
+    padding: 0 100px;
+}
+.nav-link{
+    color: #FFFFFF!important;
+}
+.Mybtn a{
+    display: inline-block;
+    padding: 16px 36px;
+    border: 1px solid #F4F6FC5E;
+    background-color: transparent;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 25px;
+}
+.hero-section{
+    margin: 130px 0;
+    padding: 100px 20px;
+}
+.left-content{
+    float: left;
+    width: 48%;
+}
+.left-content h1{
+    font-weight: 600;
+    font-size: 54PX;
+    font-family: "Poppins";
+    line-height: 74px;
+}
+.left-content P{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins";
+    line-height: 28px;
+    color: #ddd;
+}
+.hero-btn a{
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #FCD980;
+    color: #1B1C2B;
+    text-decoration: none;
+    border-radius: 20px;
+    
+}
+.heroBtn{
+    color: #FFFFFF!important;
+    border: none;
+    background: transparent!important;
+
+}
+.heroBtn i{
+    padding: 8px 15px;
+    font-size: 30px;
+}
+.right-content{
+    float: right;
+    width: 50%;
+}
+
+/* work section */
+.heroBtn-w{
+    color: #2405F2!important;
+    border: none;
+    background: transparent!important;
+    text-decoration: none;
+}
+.heroBtn-w i{
+    color: #2405F2!important;
+    padding: 8px 15px;
+  
+}
+/* work section */
+.work{
+    padding: 0 100px;
+}
+
+.w-left-content{
+    float: left;
+    width: 48%;
+}
+.w-right-content{
+    float: right;
+    width: 50%;
+}
+.work-1{
+    float: left;
+    width: 24%;
+}
+.work-1 h3{
+  margin: 15px 0;
+}
+
+.w-right-top .work-1{
+    width: 48%;
+}
+.w-right-bottom .work-1{
+    width: 48%;
+}
+
+.w-left-content h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: #282938;
+}
+.w-left-content p{
+    font-size: 16px;
+    color: #282938;
+    line-height: 28px;
+}
+
+/* talk section */
+.talk{
+    background-color: #1C1E53;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 0;
+    padding-top: 100px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.talk-left{
+    float: left;
+    width: 45%;
+}
+.talk-right{
+    float: right;
+    width: 55%;
+}
+.talk-left p{
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.talk-right p{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+/* call-us */
+.call-us{
+    background-color: #FCD980;
+    color: #1B1C2B;
+    width: 80%;
+    margin-top: 80px;
+    padding: 20px 10px;
+}
+.call-us-left{
+    float: left;
+    width: 50%;
+}
+.call-us-left h6{
+   margin: 0;
+}
+.call-us-left p{
+    margin: 0;
+}
+.call-us-right{
+    float: left;
+    width: 50%;
+}
+.call-us-right h6{
+    margin: 0;
+}
+.call-us-right p{
+    margin: 0;
+}
+/* footer */
+.footer{
+    background: #FFF;
+    color: #1B1C2B;
+    padding: 30px 0
+}
+.footer-left{
+    float: left;
+    width: 30%;
+}
+.footer-right{
+    float: right;
+    width: 70%;
+}
+.footer-right{
+    text-align: right;
+}
+
+.footer-right ul li{
+    display: inline-block;
+}
+.footer-right ul li a {
+    color: #1B1C2B;
+    font-size: 16px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
